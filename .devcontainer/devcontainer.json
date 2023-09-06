@@ -1,8 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "hostRequirements": {
-    "cpus": 4
-  },
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:dev-3.10-bullseye",
   "waitFor": "onCreateCommand",
   "updateContentCommand": "python3 -m pip install -r requirements.txt",
   "postCreateCommand": "",
@@ -12,9 +9,9 @@
     },
     "vscode": {
       "extensions": [
-		"ms-toolsai.jupyter",
-		"lefd.sweetdracula-monokai"
-	]
+        "ms-toolsai.jupyter",
+        "lefd.sweetdracula-monokai"
+      ]
     }
   }
 }
