@@ -11,7 +11,12 @@
       "extensions": [
         "ms-toolsai.jupyter",
         "lefd.sweetdracula-monokai"
-      ]
+      ],
+      "settings": {
+				"workbench.colorTheme": "Sweet Dracula Monokai",
+				"editor.fontFamily": "'Cascadia Code' ,'Fira Code', 'Courier New', monospace",
+				"editor.fontLigatures": true
+			}
     }
   }
 }
